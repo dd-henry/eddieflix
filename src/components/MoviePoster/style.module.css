@@ -1,0 +1,10 @@
+.movie-poster {
+    width: 10vw;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0 0 auto;
+    border: 0.6rem solid;
+    border-image: linear-gradient(135deg, #263630, #00a164) 1;
+}

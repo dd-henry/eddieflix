@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+img {
+    width: 15vw;
+    margin: 1vw;
+    margin-left: 10vw;
+}
+
+.footer-end {
+    height: 8px;
+    background-color: #00a164;
+}

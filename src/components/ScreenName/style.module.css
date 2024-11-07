@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Outfit:wght@600&family=Play:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #00633d;
+}

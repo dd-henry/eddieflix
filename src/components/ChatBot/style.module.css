@@ -1,0 +1,57 @@
+.chat-bot-button {
+    position: fixed;
+    bottom: 100px; /* Margem inferior */
+    right: 100px;  /* Margem direita */
+    width: 100px;
+    height: 100px;
+    background-color: #00a164;
+    z-index: 10001; /* Padrão de z-index alto */
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Desfoque leve com baixa opacidade */
+    transition: all 0.4s;
+}
+
+.chat-bot-button:hover {
+    width: 110px;
+    height: 110px;
+    background-color: #035838;
+    transition: all 0.4s;
+}
+
+.chat-bot-button:active {
+    background-color: black;
+    transition: none;
+}
+
+.chat-bot-container {
+    position: fixed; 
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.658);
+    opacity: 0; /* Inicialmente invisível */
+    pointer-events: none; /* Desativar eventos de ponteiro quando invisível */
+    transition: opacity 0.5s ease; /* Transição suave */
+}
+
+.chat-bot-container.visible {
+    opacity: 1; /* Visível */
+    pointer-events: auto; /* Ativar eventos de ponteiro quando visível */
+}
+
+.chat-bot-close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
